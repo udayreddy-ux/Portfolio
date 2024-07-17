@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+/*NavBar-Section*/
+.custom-navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%; 
+  padding: 0 20px;
+  margin-top: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
+}
+
+.nav-links-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;  /* Adjusted gap for better spacing */
+  padding-right: 20px;
+}
+
+.custom-nav-link {
+  display: flex;  /* This ensures flex layout */
+  align-items: center;  /* Centers items vertically */
+  /*color: white;*/
+  font-weight: bold;
+  text-decoration: none;  /* Removes underline */
+  font-size: 24px;
+  font-family: 'Acme', sans-serif;
+  transition: color 0.3s ease-in-out;  /* Smooth color transition */
+  width: 90%;
+  padding: 8px 12px;
+  background: linear-gradient(to right, #de3f33, #5fedbe,#cf23cf, #77d754);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+.custom-nav-link svg {
+  margin-right: 5px;  /* Right margin for spacing */
+  width: 24px;  /* Icon size */
+  height: auto;  /* Maintain aspect ratio */
+}
+
+.custom-nav-link:hover {
+  color: #FFD700;  /* Color on hover */
+}
+
+.custom-navbar-brand {
+  color: white;
+  font-size: 1.5em;
+  text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.9);
+  cursor: pointer;
+}
+
+.navbar-logo {
+  width: 70px;  
+  height: 70px;  
+  background-color: aliceblue;
+  transition: opacity 0.3s ease;  
+  border-radius: 50%;
+}
+
+.navbar-logo:hover {
+  opacity: 0.8;
+}
+.ptag{
+  color: aliceblue;
+  font-size: 30px;
+  animation: none !important;
+  opacity: 1 !important;
+}

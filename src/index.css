@@ -1,0 +1,27 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  background: url('sta.png') no-repeat center center fixed;
+  background-size: cover;
+  /*background-color: white;*/
+}
+
+.twinkling-stars {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: url('stars.png') repeat center center fixed;
+  animation: twinkle 2s infinite alternate;
+  opacity: 0.5; 
+  /*mix-blend-mode: multiply;*/ 
+}
+
+@keyframes twinkle {
+  from { opacity: 0.5; }
+  to { opacity: 1; }
+}
