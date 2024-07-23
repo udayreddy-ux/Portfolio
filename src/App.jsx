@@ -12,23 +12,30 @@ import './index.css';
 import Layout from './Layout';
 import Resume from './components/Resume'
 import Footer from './components/Footer';
+import "./App.css";
+import "./index.css";
+import "bootstrap/dist/css/bootstrap.min.css";
 function App() {
   return (
     <>
-      <Router>
-        <Layout navbar={<Startpage />}>
-              <Routes>
-                <Route path="/" element={<Startpage/>}>
-                  <Route path="/Home" element={<Home/>}/>
-                  <Route path="/About" element={<About/>}/>
-                  <Route path="/Projects" element={<Projects/>}/>
-                  <Route path="/Contact" element={<Contact/>}/>
-                  <Route path="/Resume" element={<Resume/>}/>
-                </Route>
-              </Routes>
-            <Footer></Footer>
-        </Layout>
-      </Router>
+      <div className="container">
+      <header>
+        <Router>
+          <Layout navbar={<Startpage />}>
+                <Routes>
+                  <Route path="/" element={<Startpage/>}>
+                    <Route path="/Home" element={<Home/>}/>
+                    <Route path="/About" element={<About/>}/>
+                    <Route path="/Projects" element={<Projects/>}/>
+                    <Route path="/Contact" element={<Contact/>}/>
+                    <Route path="/Resume" element={<Resume/>}/>
+                  </Route>
+                </Routes>
+              <Footer></Footer>
+          </Layout>
+        </Router>
+      </header>
+      </div>
     </>
   );
 }

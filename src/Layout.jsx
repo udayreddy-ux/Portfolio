@@ -1,11 +1,11 @@
 import React from 'react';
 import './index.css'; 
 
-const Layout = ({ navbar,children }) => {
+const Layout = ({ children }) => {
     return (
         <>
-            {navbar}
-            <div className="twinkling-stars">
+            <div className="twinkling-stars"></div>  
+            <div className="content">
                 {children}
             </div>
         </>
@@ -13,3 +13,4 @@ const Layout = ({ navbar,children }) => {
 }
 
 export default Layout;
+
