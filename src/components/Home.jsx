@@ -4,6 +4,7 @@ import TypeWriter from "./TypeWriter";
 import Button from 'react-bootstrap/Button';
 import { useNavigate } from "react-router-dom";
 import { BsEnvelopeAtFill,BsLinkedin,BsInstagram } from "react-icons/bs";
+import Footer from './Footer';
 export default function Home(){
     const navigate=useNavigate();
     const goToAbtPage=()=>{
@@ -80,6 +81,7 @@ export default function Home(){
                     </a>
                 </div>
             </div>
+            <Footer></Footer>
         </>
     );
 }

@@ -6,7 +6,7 @@ import Container from 'react-bootstrap/Container';
 import { BsHouseDoor, BsPerson } from "react-icons/bs";
 import { AiOutlineFundView, AiOutlineMessage, AiOutlineFileText } from "react-icons/ai";
 import { GoRepoForked } from "react-icons/go";
-import ninjaLogo from "../ninja.png"
+import ninjaLogo from "../ninja.png";
 import { FaCodeFork } from "react-icons/fa6";
 export default function Startpage() {
     return (
@@ -36,10 +36,9 @@ export default function Startpage() {
                 <Nav.Link as="a" href="https://github.com/udayreddy-ux" target='_blank' className="custom-nav-link">
                 <FaCodeFork style={{ color: 'blue' }}/>
                 </Nav.Link>
-                
             </div>
         </Navbar>
-            <Outlet />
+        <Outlet />
         </>
     );
 }

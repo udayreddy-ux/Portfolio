@@ -24,6 +24,7 @@ function App() {
           <Layout navbar={<Startpage />}>
                 <Routes>
                   <Route path="/" element={<Startpage/>}>
+                    <Route index element={<Home />}/>
                     <Route path="/Home" element={<Home/>}/>
                     <Route path="/About" element={<About/>}/>
                     <Route path="/Projects" element={<Projects/>}/>
@@ -31,7 +32,7 @@ function App() {
                     <Route path="/Resume" element={<Resume/>}/>
                   </Route>
                 </Routes>
-              <Footer></Footer>
+              
           </Layout>
         </Router>
       </header>

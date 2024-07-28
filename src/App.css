@@ -326,3 +326,99 @@
 .circle-logo:hover{
   background-color: #FFD700 !important;
 }
+
+
+/* About Section*/
+
+.about-pic{
+  margin-top: 50px !important;
+  text-align: center !important;
+  font-size: bold !important;
+  font-family: 'Acme', sans-serif !important;
+  background: linear-gradient(to right, #e2dad8, #eae8e6, #c01ec0, #51249a);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  padding-left: 30% !important;
+  width: 50% !important;
+}
+
+.world-spin {
+  display: inline-block;
+  animation: world 10s infinite linear;
+  transform-origin: center;
+}
+
+@keyframes world {
+  0% {
+    transform: rotate(0deg) rotateX(0deg);
+  }
+  25% {
+    transform: rotate(90deg) rotateX(14deg);
+  }
+  50% {
+    transform: rotate(180deg) rotateX(-14deg);
+  }
+  75% {
+    transform: rotate(270deg) rotateX(14deg);
+  }
+  100% {
+    transform: rotate(360deg) rotateX(0deg);
+  }
+}
+
+.about-me {
+  font-size: 20px;
+  font-family: 'Acme', sans-serif !important;
+  text-align: justify;
+  margin-right: 20px;
+  list-style-type: none; /* Remove default bullets */
+  padding-left: 60px;
+}
+
+.about-me li {
+  opacity: 0;
+  animation: fadeUp 1s ease forwards;
+  animation-delay: calc(var(--order) * 1s);
+  position: relative;
+  background: linear-gradient(to right, #c4b1b1, #e3d6d6, #aaa, #ddd);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+
+.highlight {
+  color: #ff4500; /* Highlight color */
+  -webkit-text-fill-color: initial; /* Reset text fill color for highlighted words */
+  -webkit-background-clip: initial; /* Reset background clip for highlighted words */
+}
+
+.about-me li:before {
+  content: "•"; /* Custom bullet symbol */
+  color: #ff4500; /* Custom bullet color */
+  position: absolute;
+  left: 0;
+  top: 0;
+  font-size: 1.5em; /* Adjust size as needed */
+  line-height: 1; /* Align bullet vertically with text */
+}
+
+@keyframes fadeUp {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.hide{
+  display: none;
+}
+
+.skill:hover + .hide{
+  display: block;
+}
+
+
+
