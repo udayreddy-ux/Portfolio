@@ -1,0 +1,34 @@
+export const researchData=[
+    {
+        title: "Neural Networks for Leaf Analysis",
+        text:"Automated classification of Indian medicinal leaves using transfer learning and CNNs. Utilizing data augmentation and regularization techniques our study achieved 99.99% accuracy with Xception. The dataset includes 1835 images of 30 different medicinal herbs.",
+        imgSrc:"leaf_logo.png",
+        realTitle: "Classification of Indian Medicinal Leaves using Transfer Learning based Convolutional Neural Networks",
+        conclusion:"Identification and classification of medicinal leaves is a crucial role used in many ways to prepare Ayurveda and Herbal products. In this paper, a convolution neural network-based approach has been proposed to classify the thirty types of Indian medicinal leaves. In our work, the approach of transfer learning was utilized with VGG16, Xception, and EfficientNetV2 CNN models, to avoid the threat of overfitting a dropout layer was added in the architecture which drops some neurons randomly making the model more efficient in terms of performance. Among the three models proposed Xception network with 99.99% test accuracy performs better than VGG16 (99.55% test accuracy) and EffiientNetV2 (99.46% test accuracy) in classifying medicinal leaves. India is rich in various types of medicinal plants. This work classifies 30 types of Indian medicinal leaves, in the future, this classification can be extended to classify many other types of Indian medicinal leaves with the availability of data.",
+        url:"https://ieeexplore.ieee.org/abstract/document/9952074"
+    },
+    {
+        title: "Extensive Web Solutions for Animal Husbandry",
+        text:"Exploring deep learning techniques for automated breed classification and disease detection in animals. Our study focuses on cows, sheep, and goats, crucial for India's leading milk export industry. Early disease detection through automation enhances animal welfare and productivity.",
+        imgSrc:"animal_logo.png",
+        realTitle:"A Comprehensive Study on the Role of Artificial Intelligence in Animal Husbandry",
+        conclusion:"Along with this task, a thorough investigation of how artificial intelligence techniques are automating many tasks of animal husbandry. A comprehensive overview of the available literature outlining the different modern works has been provided. In addition, studies have presented various algorithms of machine learning and deep learning that are utilized in numerous research works. AI techniques are the basis of autonomous functioning in recognizing animal breeds and illnesses, and they will play a pivotal role in the future advancement and growth of livestock farming. Such advanced independent methods are simple to install and can conduct automated, repetitious, and difficult jobs with great accuracy. Many other different animal species are useful to human lives and nations in many ways and it was necessary to identify and protect them. Future work is with the aim of developing artificial intelligence based solutions to automate the categorization of animal breeds effectively with the help of image data and subsequently, an attempt will be made to localize the breeds in a group of creatures.",
+        url:"https://ieeexplore.ieee.org/abstract/document/10448832"
+    },
+    {
+        title: "Flowers Identification Using Transfer Learning",
+        text:"Utilizing deep learning architectures for flower classification with VGG19 and EfficientNetV2L architectures. Our fine-tuned models achieved 96.28% accuracy on the Kaggle dataset, outperforming other methods. Pre-processing steps included normalization and scaling for optimal results.",
+        imgSrc:"flower_logo.png",
+        realTitle:"Transfer learning based effective approach for classification of flowers",
+        conclusion:"Flower species taxonomy is a difficult task. It's more difficult to identify flower species when there are similarities between two flowers like color, shape, and size. Traditional methods for classifying flower species have been shown to be efficient. Deep learning models have become one of the most popular methods for recently attaining improved outcomes in all these classifications. Instead of requiring feature extraction, deep neural networks can automatically extract information from input data. In this paper, we have shown that flower classification with deep learning CNN and with a transfer learning approach we have achieved higher accuracy with EffecientNetV2 as compared to VGG19.flower images are taken from the Kaggle website. We achieved an accuracy of 88.21 for VGG19 for 30 epochs and 96.28 for 20 epochs which, when applied to the same dataset, outperforms all other deep learning methods. It demonstrates the method's accuracy for floral image classification tasks as well as its suitability for flower identification.",
+        url:"https://ieeexplore.ieee.org/abstract/document/10040338"
+    },
+    {
+        title: "AI-Integrated App for Automated Crack Detection",
+        text:"Automating crack detection on surfaces using deep learning with VGG19, Xception, and ResNet50 V2. Our study achieved 99.54% accuracy with Xception on a dataset of 3,886 images. Data augmentation and regularization improved model performance for accurate crack inspection.",
+        imgSrc:"crack_logo.png",
+        realTitle:"An efficient approach for automatic crack detection using deep learning",
+        conclusion:"Cracks on historical monuments or buildings are difficult to identify as the aesthetics of such historical buildings acquire various styles of architecture. Nowadays automation of industry-oriented programs is highly demanding. Automation of crack detection can help in the inspection of cracks using deep learning techniques such as CNNs, In this study, a CNN model-based crack detection was proposed to identify the cracked portions of buildings with different architectural patterns. A comparison of various algorithms such as Inception V3, Xception, VGG19 and Resnet50 V2 had been performed to identify the effective model to detect the cracked regions. With the utilization of data augmentation techniques, the model performance has been enhanced. Results show that the Xception model-based crack identification is more effective than the other three algorithms. Xception outperforms other models with 99.23% validation accuracy and 99.54% test accuracy. This proposed method can be integrated with the Internet of Things (IoT) to identify cracks. In the future, this work can be extended to predict the crack width and the crack length.",
+        url:"https://www.emerald.com/insight/content/doi/10.1108/IJSI-10-2023-0102/full/html"
+    }
+];

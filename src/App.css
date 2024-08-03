@@ -421,4 +421,124 @@
 }
 
 
+.research-card {
+  width: 500px !important; /* Set a fixed width for the card */
+  height: 550px !important; /* Set a fixed height for the card */
+  margin: 0 auto !important; /* Center the card horizontally */
+  display: flex !important;
+  flex-direction: column !important;
+  background: linear-gradient(135deg, #f6d365 25%, #fda085 50%) !important;
+  transition: transform 0.2s !important;
+}
+
+.research-card:hover{
+  transform: rotateY(15deg) rotateX(15deg) !important;
+}
+
+.research-logo {
+  width: 60% !important; /* Ensure the image fills the width of the card */
+  height: 200px !important; /* Set a fixed height for the image */
+  object-fit: cover !important; /* Ensure the image covers the area and maintains aspect ratio */
+  display: block !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+.card-body {
+  flex: 1 !important;
+  display: flex !important;
+  flex-direction: column !important;
+  justify-content: space-between !important;
+  text-align: center !important;
+}
+
+.card-title,
+.card-text {
+  overflow: hidden !important;
+  text-overflow: ellipsis !important;
+  white-space: normal !important;
+  text-align: center !important;
+  font-family: 'Acme', sans-serif !important;
+}
+
+.card-title{
+  font-size: 30px !important;
+}
+
+.card-text{
+  background: linear-gradient(to right, #423633, #08291e, #2b0f2b, #2b4a1f);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  font-size: 20px !important;
+}
+
+.card-button{
+  width: 150px !important;
+  height: 50px !important;
+}
+
+.modal-background{
+  font-family: 'Acme', sans-serif !important;
+  text-align: justify !important;
+  background: linear-gradient(135deg, #be50a8 80%, #ad529a 20%) !important;
+}
+.modal-body{
+  font-family: 'Acme', sans-serif !important;
+  text-align: justify !important;
+  background: linear-gradient(135deg, #84dff3 55%, #62f0eb 45%) !important;
+}
+.modal-footer{
+  background: linear-gradient(135deg, #cde4ea 55%, #c0eae8 45%) !important;
+}
+
+.styles-module_calendar__sT1ND text{
+  fill: white !important;
+}
+.react-activity-calendar__count{
+  color: #9929ac !important;
+  font-weight: bold !important;
+}
+.styles-module_legendColors__kFY2e{
+  color: #9929ac !important;
+  font-weight: bold !important;
+}
+
+/* styles.css */
+.profile-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.profile-image .skill {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px; /* Set a fixed width */
+  height: 200px; /* Set a fixed height */
+  overflow: hidden;
+  border: 2px solid #db56ad; /* Set border color and width */
+  border-radius: 20px; /* Rounded edges */
+  
+}
+
+.profile-image .skill .profile-img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain; /* Ensure the full image is visible within the container */
+  object-position: center; /* Center the image within the container */
+}
+
+.profile-img{
+  display: block;
+}
+
+/*
+.text-gradient {
+  background: linear-gradient(45deg, #ff6f61, #ff9966);
+  -webkit-background-clip: text;
+  color: transparent;
+  font-weight: bold;
+}*/
 
