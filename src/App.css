@@ -542,3 +542,55 @@
   font-weight: bold;
 }*/
 
+/* Projects section */
+
+.shadow-card{
+  box-shadow: 5px 5px 15px 5px rgb(186, 110, 88) !important;
+}
+
+.project-card {
+  width: 350px !important; /* Set a fixed width for the card */
+  height: 550px !important; /* Set a fixed height for the card */
+  margin-top: 50px !important;
+  margin-left: auto !important;
+  margin-right: auto !important; /* Center the card horizontally */
+  margin-bottom: 20px !important;
+  display: flex !important;
+  flex-direction: column !important;
+  background: linear-gradient(135deg, #ad4c25 80%, #ad4c25 20%) !important;
+  transition: transform 0.2s !important;
+}
+
+.project-card:hover{
+  transform: rotateY(20deg) rotateX(20deg) !important;
+}
+.custom-button{
+  background-color: #5d3020 !important;
+  color: whitesmoke !important;
+  font-size: 22px !important;
+  font-family: 'Acme', sans-serif !important;
+  border-radius: 25px !important;/* Rounded edges */
+  padding: 10px 20px !important; /* Padding for a more prominent button */
+}
+
+.custom-button:hover{
+  background-color: #6abb6e !important;
+}
+
+.project-logo {
+  width: 100% !important; /* Ensure the image fills the width of the card */
+  height: 200px !important; /* Set a fixed height for the image */
+  object-fit: cover !important; /* Ensure the image covers the area and maintains aspect ratio */
+  display: block !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+.project-heading{
+  background: linear-gradient(to right, #e2dad8, #ad7033, #eda553, #d78f23);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  text-align: center !important;
+  font-family: 'Acme', sans-serif !important;
+  margin-top: 30px !important;
+}

@@ -6,7 +6,6 @@ import Container from 'react-bootstrap/Container';
 import { BsHouseDoor, BsPerson } from "react-icons/bs";
 import { AiOutlineFundView, AiOutlineMessage, AiOutlineFileText } from "react-icons/ai";
 import { GoRepoForked } from "react-icons/go";
-import ninjaLogo from "../ninja.png";
 import { FaCodeFork } from "react-icons/fa6";
 export default function Startpage() {
     return (
@@ -14,7 +13,7 @@ export default function Startpage() {
         <Navbar className="custom-navbar">
             <Navbar.Brand className="custom-navbar-brand">
                 <LinkContainer to="/Home">
-                <img src={ninjaLogo} alt="Welcome" className='navbar-logo'/>
+                <img src="ninja.png" alt="Welcome" className='navbar-logo'/>
                 </LinkContainer>
             </Navbar.Brand>
             <div className="nav-links-container">
