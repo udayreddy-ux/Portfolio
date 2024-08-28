@@ -81,7 +81,7 @@
   font-family: 'Acme', sans-serif !important;
   align-items: center !important;
   background-image: linear-gradient(to right, rgb(16, 15, 15), rgb(83, 83, 83), rgb(103, 103, 103)) !important;
-  margin-top: 200px;
+  margin-top: 50px;
 }
 
 .footer-icons svg{
@@ -593,4 +593,114 @@
   text-align: center !important;
   font-family: 'Acme', sans-serif !important;
   margin-top: 30px !important;
+}
+
+/* Contact section */
+.head{
+  background: linear-gradient(to right, #dbc7d2,#f0dae1, #efc3ef, #f0d1f0);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text; 
+  font-family: 'Acme', sans-serif !important;
+  margin: auto !important;
+  text-align: center !important;
+  font-weight: bold !important;
+  font-size: 40 !important;
+}
+.contact-form{
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 10px;
+}
+.contact-form form{
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+.form-field{
+  flex: 1;
+  margin-right: 10px;
+}
+.form-field:last-child {
+  margin-right: 0;
+}
+
+label {
+  display: block;
+  font-size: 20px;
+  color: #db7edb;
+  margin-bottom: 5px;
+  font-family: 'Acme', sans-serif !important;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  background: linear-gradient(to right, #dbc7d2,#f0dae1, #efc3ef, #f0d1f0);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  font-family: 'Acme', sans-serif !important; 
+}
+
+input[type="text"]::placeholder,
+input[type="email"]::placeholder,
+textarea::placeholder {
+  /*color: #b95170;*/
+  background: linear-gradient(to right, #dbc7d2,#f0dae1, #efc3ef, #f0d1f0);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text; 
+  opacity: 0.8;
+  font-family: 'Acme', sans-serif !important;
+}
+
+textarea {
+  resize: none;
+  height: 100px;
+}
+
+button {
+  padding: 12px 15px;
+  border: none;
+  border-radius: 50px !important;
+  background-color: #4a90e2;
+  color: #fff;
+  font-size: 16px !important;
+  cursor: pointer !important;
+  transition: background-color 0.3s ease;
+  height: 50px;
+  width:150px;
+  font-family: 'Acme', sans-serif !important;
+  margin: 0 auto !important;
+}
+
+button:hover {
+  background-color: #357ab7;
+}
+
+/* Resume Section */
+.resume-section{
+  margin: 0 auto !important;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.resume{
+  display: flex;
+  position: relative;
+  justify-content: center;
+  margin-top: 10px;
+  margin-bottom: 20px;
 }
