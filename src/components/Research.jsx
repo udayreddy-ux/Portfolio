@@ -48,7 +48,9 @@ export default function Research(){
             </Modal.Body>
             <Modal.Footer>
             <Button variant="primary" href={selectedResearch.url} target="_blank">View Article</Button>
-                <Button variant="secondary" onClick={handleClose}>Close</Button>
+            <div className='contain'>
+            <Button onClick={handleClose} className='secondary'>Close</Button>
+            </div>
             </Modal.Footer>
             </Modal>
         )}

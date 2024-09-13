@@ -7,7 +7,13 @@ import { BsHouseDoor, BsPerson } from "react-icons/bs";
 import { AiOutlineFundView, AiOutlineMessage, AiOutlineFileText } from "react-icons/ai";
 import { GoRepoForked } from "react-icons/go";
 import { FaCodeFork } from "react-icons/fa6";
+import React, { useState } from 'react';
 export default function Startpage() {
+    const [isOpen, setIsOpen] = useState(false);
+
+    const toggleNav = () => {
+        setIsOpen(!isOpen);
+    };
     return (
         <>
         <Navbar className="custom-navbar">
@@ -16,7 +22,7 @@ export default function Startpage() {
                 <img src="ninja.png" alt="Welcome" className='navbar-logo'/>
                 </LinkContainer>
             </Navbar.Brand>
-            <div className="nav-links-container">
+            <div className={`nav-links-container ${isOpen ? 'active' : ''}`}>
                 <LinkContainer to="/Home">
                 <Nav.Link className="custom-nav-link"><BsHouseDoor/>Home</Nav.Link>
                 </LinkContainer>
@@ -35,6 +41,11 @@ export default function Startpage() {
                 <Nav.Link as="a" href="https://github.com/udayreddy-ux" target='_blank' className="custom-nav-link">
                 <FaCodeFork style={{ color: 'blue' }}/>
                 </Nav.Link>
+            </div>
+            <div className="hamburger" onClick={toggleNav}>
+                <div></div>
+                <div></div>
+                <div></div>
             </div>
         </Navbar>
         <Outlet />

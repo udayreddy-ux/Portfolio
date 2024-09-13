@@ -65,6 +65,48 @@
   opacity: 0.8 !important;
 }
 
+.hamburger {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.hamburger div {
+  width: 25px;
+  height: 3px;
+  background-color: white;
+  margin: 4px 0;
+  transition: 0.4s;
+}
+
+/* Media query for mobile */
+@media (max-width: 768px) {
+  .nav-links-container {
+    display: none !important;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .hamburger {
+    display: flex;
+  }
+
+  .nav-links-container.active {
+    display: flex !important;
+  }
+
+  .custom-navbar {
+    flex-direction: column;
+  }
+
+  .custom-nav-link {
+    padding: 15px;
+    width: 100%;
+    text-align: center;
+  }
+}
+
+
 .ptag{
   color: aliceblue !important;
   font-size: 30px !important;
@@ -480,12 +522,12 @@
 .modal-background{
   font-family: 'Acme', sans-serif !important;
   text-align: justify !important;
-  background: linear-gradient(135deg, #be50a8 80%, #ad529a 20%) !important;
+  background: linear-gradient(135deg, #caa0c1 80%, #c793bc 20%) !important;
 }
 .modal-body{
   font-family: 'Acme', sans-serif !important;
   text-align: justify !important;
-  background: linear-gradient(135deg, #84dff3 55%, #62f0eb 45%) !important;
+  background: linear-gradient(135deg, #84dff3 56%, #b3e0ea 45%) !important;
 }
 .modal-footer{
   background: linear-gradient(135deg, #cde4ea 55%, #c0eae8 45%) !important;
@@ -557,7 +599,7 @@
   margin-bottom: 20px !important;
   display: flex !important;
   flex-direction: column !important;
-  background: linear-gradient(135deg, #ad4c25 80%, #ad4c25 20%) !important;
+  background: linear-gradient(135deg, #e5d1c9 80%, #e5d1c9 20%) !important;
   transition: transform 0.2s !important;
 }
 
@@ -688,6 +730,24 @@ button {
 
 button:hover {
   background-color: #357ab7;
+}
+
+button.secondary {
+  background-color: #4462dc;
+  color: #fff;
+  border-radius: 6px !important;
+  padding: 10px 10px !important;
+  height: 37px !important;
+  width:100px !important;
+  float: right !important;
+}
+
+button.secondary:hover {
+  background-color: #5a76e6;
+}
+.contain {
+  display: flex;
+  justify-content: flex-end; 
 }
 
 /* Resume Section */
