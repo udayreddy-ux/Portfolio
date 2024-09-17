@@ -207,14 +207,14 @@
 }
 
 .text-gradient {
-  background: linear-gradient(to right, #df3529, #5fedbe, #cf23cf, #77d754);
+  background: linear-gradient(to right, #bfc3d1, #cbaec6, #b7c2d7, #e1dcc9);
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
   font-family: 'Acme', sans-serif !important;
 }
 
 .semitxt-gradient {
-  background: linear-gradient(to right, #e7e6e8, #d4b9d3, #afcdcc, #9cb294);
+  background: linear-gradient(to right, #bfc3d1, #cbaec6, #b7c2d7, #e1dcc9);
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
 }
@@ -271,7 +271,7 @@
   text-align: center;
   font-size: 35px;
   font-weight: bold;
-  background: linear-gradient(to right,rgba(255,0,0,1) 0%, rgba(255,154,0,1) 10%, rgba(208,222,33,1) 20%, rgba(79,220,74,1) 30%, rgba(63,218,216,1) 40%, rgba(47,201,226,1) 50%, rgba(28,127,238,1) 60%, rgba(95,21,242,1) 70%, rgba(186,12,248,1) 80%, rgba(251,7,217,1) 90%, rgba(255,0,0,1) 100%);
+  background: linear-gradient(to right,#bfc3d1, #cbaec6, #b7c2d7, #e1dcc9);
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
 }
@@ -301,7 +301,7 @@
 }
 
 .home-contact{
-  background: linear-gradient(to right, #e2dad8, #eae8e6, #c01ec0, #51249a);
+  background: linear-gradient(to right, #bfc3d1, #cbaec6, #b7c2d7, #e1dcc9);
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
   align-items: center;
@@ -377,7 +377,7 @@
   text-align: center !important;
   font-size: bold !important;
   font-family: 'Acme', sans-serif !important;
-  background: linear-gradient(to right, #e2dad8, #eae8e6, #c01ec0, #51249a);
+  background: linear-gradient(to right, #bfc3d1, #cbaec6, #b7c2d7, #e1dcc9);
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
   padding-left: 30% !important;
@@ -629,7 +629,7 @@
 }
 
 .project-heading{
-  background: linear-gradient(to right, #e2dad8, #ad7033, #eda553, #d78f23);
+  background: linear-gradient(to right, #bfc3d1, #cbaec6, #b7c2d7, #e1dcc9);
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
   text-align: center !important;
